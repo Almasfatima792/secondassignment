@@ -1,0 +1,99 @@
+/* 
+Theme Name:		 Divi-child
+Theme URI:		 http://childtheme-generator.com/
+Description:	 Divi-child is a child theme of Divi, created by ChildTheme-Generator.com
+Author:			 Almas fatima
+Author URI:		 http://childtheme-generator.com/
+Template:		 Divi
+Version:		 1.0.0
+Text Domain:	 divi-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+body #page-container .et_pb_slider .et_pb_slide_0.et_pb_slide .et_pb_more_button.et_pb_button {
+    
+    height: 110px;
+    width: 461px;
+}
+.et_pb_fullwidth_image img {
+    height: 100%;
+}
+input.text, input.title, input[type=text], select, textarea,
+input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
+    margin: 33px;
+        height: 50px;
+        width: 200px;
+        border: 3px solid #e13ed7;
+    }
+    label {
+        font-size : 20px;
+        font-family : open-sans;
+    }
+    input[type="submit" i]{
+        height : 50px;
+        width : 100px;
+        background-color : #e13ed7;
+        color : white;
+
+    }
+    
+    .entry-summary p.price span {
+    
+    
+        color : #e13ed7;
+    }
+    
+    .posted_in a {
+        color: #e13ed7;
+    }
+    #newsletter{
+        font-size: 16px;
+letter-spacing: 1px;
+line-height: 27px;
+color: #a8a6a6;
+font-weight: 300;
+font-family: "Source Sans Pro";
+    
+    }
+    #email {
+        position : relative;
+        right :  40px;
+        font-size: 13px;
+letter-spacing: 1px;
+line-height: 27px;
+color: #a8a6a6;
+font-weight: 300;
+font-family: "Source Sans Pro";
+border : 1px solid  #a8a6a6;
+background-color : #1d1d1d;
+height : 40px;
+text-align: center;
+    }
+    #subscribe {
+        height :40px;
+        width : 200px;
+        background-color: #e13ed7;
+        font-size: 15px;
+letter-spacing: 1px;
+line-height: 27px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Source Sans Pro";
+        
+    }
+    button {
+        color : white !important;
+    }
+    .woocommerce a.button,
+    .woocommerce-page a.button.alt {
+        color : white;
+    }
+    :root {
+        --wp-admin-theme-color:#e13ed7 ;
+        --wp-admin-theme-color-darker-10:#e13ed7 ;
+        --wp-admin-theme-color-darker-20: #e13ed7;
+    }
